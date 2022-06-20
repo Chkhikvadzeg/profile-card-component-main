@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://chkhikvadzeg.github.io/profile-card-component-main/)
+- Live Site URL: [Github live page](https://chkhikvadzeg.github.io/profile-card-component-main/)
 
 ## My process
 
@@ -40,6 +40,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Add your name here](https://github.com/Chkhikvadzeg)
+- Website - [@Chkhikvadzeg](https://github.com/Chkhikvadzeg)
 - Frontend Mentor - [@Chkhikvadzeg](https://www.frontendmentor.io/profile/Chkhikvadzeg)
 - Linkedin - [@Giorgi Chkhikvadze](https://www.linkedin.com/in/giorgi-chkhikvadze-3b4316241/)
