@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #2E3349;
+}
+
+.card-main {
+    width: 100vw;
+    height: 100vh;
+    background: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-main::before {
+    content: url(../images/bg-pattern-top.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.card-main::after {
+    content: url(../images/bg-pattern-bottom.svg);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 50%);
+}
+
+.card {
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    z-index: 99;
+}
+
+.card-images {
+    position: relative;
+}
+
+.card-bg {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.profile-picture {
+    width: 96px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 72px;
+}
+
+.age {
+    color: #6B7082;
+    font-weight: 400;
+    margin-left: 9px;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    margin-top: 13px;
+    color: #6B7082;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+hr {
+    color: #E8E9EC;
+    margin-top: 28px;
+}
+
+.insights {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 24px 0;
+    margin: 0 auto;
+}
+
+.insights-item h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.insights-item span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px){
+    .card {
+        width: 326px;
+    }
+    .card-main::before {
+        transform: translate(-75%, -75%);
+    }
+    
+    .card-main::after {
+        transform: translate(75%, 75%);
+    }
+}
