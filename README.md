@@ -40,6 +40,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [@Chkhikvadzeg](https://github.com/Chkhikvadzeg)
+- GitHub - [@Chkhikvadzeg](https://github.com/Chkhikvadzeg)
 - Frontend Mentor - [@Chkhikvadzeg](https://www.frontendmentor.io/profile/Chkhikvadzeg)
 - Linkedin - [@Giorgi Chkhikvadze](https://www.linkedin.com/in/giorgi-chkhikvadze-3b4316241/)
